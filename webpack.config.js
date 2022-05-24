@@ -18,5 +18,8 @@ module.exports = {
       }
     ]
   },
+  devServer: {
+    contentBase: path.resolve(__dirname, 'public')
+  },
   mode: 'development',
 }
