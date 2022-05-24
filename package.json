@@ -6,6 +6,7 @@
   "author": "Steven Alves <steven.alves@advectus.net>",
   "license": "MIT",
   "dependencies": {
-    "react": "^18.1.0"
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   }
 }
