@@ -1,0 +1,8 @@
+{
+  "name": "react-advance-componentes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Steven-J-Alves/react-advance-componentes.git",
+  "author": "Steven Alves <steven.alves@advectus.net>",
+  "license": "MIT"
+}
