@@ -1,11 +1,25 @@
-import './styles/global.scss'
+import React from 'react';
+import { Tab } from '@headlessui/react';
+
+import './styles/global.scss';
 import './styles/custom.css';
 import '../dist/style/tailwind/tailwindBuild.css';
 
-export function App() {
+const App = () => {
   return (
-    <h1 className="text-red-900">
-      Hello world!
-    </h1>
-  )
-}
+    <Tab.Group>
+      <Tab.List>
+        <Tab>Tab 1</Tab>
+        <Tab>Tab 2</Tab>
+        <Tab>Tab 3</Tab>
+      </Tab.List>
+      <Tab.Panels>
+        <Tab.Panel>Content 1</Tab.Panel>
+        <Tab.Panel>Content 2</Tab.Panel>
+        <Tab.Panel>Content 3</Tab.Panel>
+      </Tab.Panels>
+    </Tab.Group>
+  );
+};
+
+export default App;
