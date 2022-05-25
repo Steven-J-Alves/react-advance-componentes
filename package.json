@@ -5,6 +5,10 @@
   "repository": "git@github.com:Steven-J-Alves/react-advance-componentes.git",
   "author": "Steven Alves <steven.alves@advectus.net>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
