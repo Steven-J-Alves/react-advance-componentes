@@ -13,4 +13,4 @@ I Started this project to learn more how to create reusable react compoments for
   - Node
   - Figma
   - Sass
-  - Tailwind
+  - Tailwindcss
