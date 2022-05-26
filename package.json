@@ -12,7 +12,8 @@
     "tailwind-build": "cross-env NODE_ENV=production postcss src/styles/tailwind.css -o dist/style/tailwind/tailwindBuild.css",
     "tailwind-watch": "postcss src/styles/tailwind.css -o dist/style/tailwind/tailwindBuild.css --watch",
     "scss": "node-sass --watch src/styles/scss/mainScss.scss -o dist/style/scss-compiled",
-    "server": "json-server --watch statuses.json --port 5001"
+    "server": "json-server --watch statuses.json --port 5001",
+    "lint": "eslint src --max-warnings=0"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.3",
